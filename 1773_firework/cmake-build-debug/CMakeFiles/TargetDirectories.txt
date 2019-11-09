@@ -1,3 +1,0 @@
-/Users/leehyeoksoo/Desktop/코딩공부/boj/1773_firework/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/Users/leehyeoksoo/Desktop/코딩공부/boj/1773_firework/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/leehyeoksoo/Desktop/코딩공부/boj/1773_firework/cmake-build-debug/CMakeFiles/1773_firework.dir
