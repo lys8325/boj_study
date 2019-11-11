@@ -1,4 +1,4 @@
-# Install script for directory: /Users/leehyeoksoo/Desktop/코딩공부/boj/07569_tomato
+# Install script for directory: /Users/leehyeoksoo/Desktop/코딩공부/boj_study/07569_tomato
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/leehyeoksoo/Desktop/코딩공부/boj/07569_tomato/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/leehyeoksoo/Desktop/코딩공부/boj_study/07569_tomato/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

@@ -8,38 +8,38 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/Users/leehyeoksoo/Desktop/코딩공부/boj/07569_tomato/cmake-build-debug"/>
+				<Option working_dir="/Users/leehyeoksoo/Desktop/코딩공부/boj_study/07569_tomato/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/leehyeoksoo/Desktop/코딩공부/boj/07569_tomato/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/leehyeoksoo/Desktop/코딩공부/boj/07569_tomato/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/leehyeoksoo/Desktop/코딩공부/boj/07569_tomato/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/leehyeoksoo/Desktop/코딩공부/boj/07569_tomato/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/leehyeoksoo/Desktop/코딩공부/boj_study/07569_tomato/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/leehyeoksoo/Desktop/코딩공부/boj_study/07569_tomato/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/leehyeoksoo/Desktop/코딩공부/boj_study/07569_tomato/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/leehyeoksoo/Desktop/코딩공부/boj_study/07569_tomato/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/Users/leehyeoksoo/Desktop/코딩공부/boj/07569_tomato/cmake-build-debug"/>
+				<Option working_dir="/Users/leehyeoksoo/Desktop/코딩공부/boj_study/07569_tomato/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/leehyeoksoo/Desktop/코딩공부/boj/07569_tomato/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/leehyeoksoo/Desktop/코딩공부/boj/07569_tomato/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/leehyeoksoo/Desktop/코딩공부/boj/07569_tomato/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/leehyeoksoo/Desktop/코딩공부/boj/07569_tomato/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/leehyeoksoo/Desktop/코딩공부/boj_study/07569_tomato/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/leehyeoksoo/Desktop/코딩공부/boj_study/07569_tomato/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/leehyeoksoo/Desktop/코딩공부/boj_study/07569_tomato/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/leehyeoksoo/Desktop/코딩공부/boj_study/07569_tomato/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/Users/leehyeoksoo/Desktop/코딩공부/boj/07569_tomato/cmake-build-debug"/>
+				<Option working_dir="/Users/leehyeoksoo/Desktop/코딩공부/boj_study/07569_tomato/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/leehyeoksoo/Desktop/코딩공부/boj/07569_tomato/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/leehyeoksoo/Desktop/코딩공부/boj/07569_tomato/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/leehyeoksoo/Desktop/코딩공부/boj/07569_tomato/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/leehyeoksoo/Desktop/코딩공부/boj/07569_tomato/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/leehyeoksoo/Desktop/코딩공부/boj_study/07569_tomato/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/leehyeoksoo/Desktop/코딩공부/boj_study/07569_tomato/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/leehyeoksoo/Desktop/코딩공부/boj_study/07569_tomato/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/leehyeoksoo/Desktop/코딩공부/boj_study/07569_tomato/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="07569_tomato">
-				<Option output="/Users/leehyeoksoo/Desktop/코딩공부/boj/07569_tomato/cmake-build-debug/07569_tomato" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/leehyeoksoo/Desktop/코딩공부/boj/07569_tomato/cmake-build-debug"/>
+				<Option output="/Users/leehyeoksoo/Desktop/코딩공부/boj_study/07569_tomato/cmake-build-debug/07569_tomato" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/leehyeoksoo/Desktop/코딩공부/boj_study/07569_tomato/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -52,15 +52,15 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/leehyeoksoo/Desktop/코딩공부/boj/07569_tomato/cmake-build-debug/Makefile&quot;  VERBOSE=1 07569_tomato"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/leehyeoksoo/Desktop/코딩공부/boj/07569_tomato/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/leehyeoksoo/Desktop/코딩공부/boj/07569_tomato/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/leehyeoksoo/Desktop/코딩공부/boj/07569_tomato/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/leehyeoksoo/Desktop/코딩공부/boj_study/07569_tomato/cmake-build-debug/Makefile&quot;  VERBOSE=1 07569_tomato"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/leehyeoksoo/Desktop/코딩공부/boj_study/07569_tomato/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/leehyeoksoo/Desktop/코딩공부/boj_study/07569_tomato/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/leehyeoksoo/Desktop/코딩공부/boj_study/07569_tomato/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="07569_tomato/fast">
-				<Option output="/Users/leehyeoksoo/Desktop/코딩공부/boj/07569_tomato/cmake-build-debug/07569_tomato" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/leehyeoksoo/Desktop/코딩공부/boj/07569_tomato/cmake-build-debug"/>
+				<Option output="/Users/leehyeoksoo/Desktop/코딩공부/boj_study/07569_tomato/cmake-build-debug/07569_tomato" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/leehyeoksoo/Desktop/코딩공부/boj_study/07569_tomato/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -73,17 +73,17 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/leehyeoksoo/Desktop/코딩공부/boj/07569_tomato/cmake-build-debug/Makefile&quot;  VERBOSE=1 07569_tomato/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/leehyeoksoo/Desktop/코딩공부/boj/07569_tomato/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/leehyeoksoo/Desktop/코딩공부/boj/07569_tomato/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/leehyeoksoo/Desktop/코딩공부/boj/07569_tomato/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/leehyeoksoo/Desktop/코딩공부/boj_study/07569_tomato/cmake-build-debug/Makefile&quot;  VERBOSE=1 07569_tomato/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/leehyeoksoo/Desktop/코딩공부/boj_study/07569_tomato/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/leehyeoksoo/Desktop/코딩공부/boj_study/07569_tomato/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/leehyeoksoo/Desktop/코딩공부/boj_study/07569_tomato/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/leehyeoksoo/Desktop/코딩공부/boj/07569_tomato/main.cpp">
+		<Unit filename="/Users/leehyeoksoo/Desktop/코딩공부/boj_study/07569_tomato/main.cpp">
 			<Option target="07569_tomato"/>
 		</Unit>
-		<Unit filename="/Users/leehyeoksoo/Desktop/코딩공부/boj/07569_tomato/CMakeLists.txt">
+		<Unit filename="/Users/leehyeoksoo/Desktop/코딩공부/boj_study/07569_tomato/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>
