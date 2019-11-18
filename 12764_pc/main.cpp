@@ -1,47 +1,47 @@
 #include <iostream>
 #include <queue>
 #include <algorithm>
+
 using namespace std;
 
-priority_queue<pair<int, int> , vector<pair<int,int>>, greater<pair<int,int>>> en;
-priority_queue<pair<int, int> , vector<pair<int,int>>, greater<pair<int,int>>> info;
-priority_queue<pair<int, int> , vector<pair<int,int>>, greater<pair<int,int>>> num;
-int n,s,e,p;
+priority_queue<pair<int, int> , vector<pair<int,int>>, greater<pair<int,int>>> end_info;
+priority_queue<pair<int, int> , vector<pair<int,int>>, greater<pair<int,int>>> time_info;
+priority_queue<int,vector<int>,greater<int>> pc_list;
+int n,s,e,pc_num;
 
 using namespace std;
 int main() {
     int temp;
-    int ne;int arr[100001]={0};
+    int arr[100001]={0};
     bool check[100001]={false};
-    p=0;
+    pc_num=0;
     cin>>n;
     for(int i=0;i<n;++i){
         cin>>s>>e;
-        info.push({s,e});
+        time_info.push({s,e});
     }
-    en.push({-1,1});
+    for(int i=2;i<=100000;++i){
+        pc_list.push(i);
+    }
+    end_info.push({-1, 1});
     check[1]=true;
-    while(!info.empty()){
-        while(info.top().first >= en.top().first && !en.empty() ){
-            check[en.top().second]= false;
-            en.pop();
+    while(!time_info.empty()){
+        while(time_info.top().first >= end_info.top().first && !end_info.empty() ){
+            check[end_info.top().second]= false;
+            pc_list.push(end_info.top().second);
+            end_info.pop();
         }
-       for(int i=1;i<=100000;++i){
-           if(!check[i]){
-               temp=i;
-               break;
-           }
-       }
+        temp=pc_list.top();
         check[temp]=true;
-        en.push({info.top().second,temp});
+        pc_list.pop();
+        end_info.push({time_info.top().second, temp});
         ++arr[temp];
-        p=max(p,temp);
-        info.pop();
+        pc_num=max(pc_num, temp);
+        time_info.pop();
     }
-    //p=en.size();
-    cout<<p<<"\n";
+    cout << pc_num << "\n";
 
-    for(int j=1;j<=p;++j){
+    for(int j=1; j <= pc_num; ++j){
         cout<<arr[j]<<" ";
     }
     return 0;
