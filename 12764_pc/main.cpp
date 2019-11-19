@@ -13,7 +13,6 @@ using namespace std;
 int main() {
     int temp;
     int arr[100001]={0};
-    bool check[100001]={false};
     pc_num=0;
     cin>>n;
     for(int i=0;i<n;++i){
@@ -24,15 +23,12 @@ int main() {
         pc_list.push(i);
     }
     end_info.push({-1, 1});
-    check[1]=true;
     while(!time_info.empty()){
         while(time_info.top().first >= end_info.top().first && !end_info.empty() ){
-            check[end_info.top().second]= false;
             pc_list.push(end_info.top().second);
             end_info.pop();
         }
         temp=pc_list.top();
-        check[temp]=true;
         pc_list.pop();
         end_info.push({time_info.top().second, temp});
         ++arr[temp];
