@@ -1,6 +1,7 @@
 #include <iostream>
 
 #define maxK 9
+
 using namespace std;
 
 int k;
