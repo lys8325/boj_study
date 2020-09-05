@@ -8,7 +8,7 @@ int k;
 char inequalitySign[maxK+1];
 bool usedNum[10] = {false};
 int maxAnswer = 0;
-int minAnswer = 1000000000;
+int minAnswer = 100000000;
 
 int findAnswer(){
     int target;
