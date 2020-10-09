@@ -2,7 +2,7 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="02753" targetName="02753" />
+      <config projectName="02884" targetName="02884" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -11,7 +11,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d6438a5-db7a-466a-9589-48b99bb0108c" name="Default Changelist" comment="" />
+    <list default="true" id="725197da-12c3-4785-9812-e39f3712b6c6" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,7 +21,7 @@
     <option name="formatViaClangd" value="false" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
-  <component name="ProjectId" id="1idIcu6fqHt3njqswOTa2bxCa6R" />
+  <component name="ProjectId" id="1idJPgZJTNRPwdwdekoRhXidZqg" />
   <component name="ProjectViewState">
     <option name="compactDirectories" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -34,7 +34,7 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RunManager">
-    <configuration name="02753" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="02753" TARGET_NAME="02753" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="02753" RUN_TARGET_NAME="02753">
+    <configuration name="02884" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="02884" TARGET_NAME="02884" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="02884" RUN_TARGET_NAME="02884">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -53,34 +53,16 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="9d6438a5-db7a-466a-9589-48b99bb0108c" name="Default Changelist" comment="" />
-      <created>1602231124377</created>
+      <changelist id="725197da-12c3-4785-9812-e39f3712b6c6" name="Default Changelist" comment="" />
+      <created>1602231512991</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1602231124377</updated>
-      <workItem from="1602231125647" duration="259000" />
+      <updated>1602231512991</updated>
+      <workItem from="1602231514193" duration="302000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state width="1110" height="340" key="GridCell.Tab.0.bottom" timestamp="1602231512570">
-      <screen x="0" y="23" width="2304" height="1209" />
-    </state>
-    <state width="1110" height="340" key="GridCell.Tab.0.bottom/2304.23.1440.877/0.23.2304.1209@0.23.2304.1209" timestamp="1602231512570" />
-    <state width="1110" height="340" key="GridCell.Tab.0.center" timestamp="1602231512569">
-      <screen x="0" y="23" width="2304" height="1209" />
-    </state>
-    <state width="1110" height="340" key="GridCell.Tab.0.center/2304.23.1440.877/0.23.2304.1209@0.23.2304.1209" timestamp="1602231512569" />
-    <state width="1110" height="340" key="GridCell.Tab.0.left" timestamp="1602231512569">
-      <screen x="0" y="23" width="2304" height="1209" />
-    </state>
-    <state width="1110" height="340" key="GridCell.Tab.0.left/2304.23.1440.877/0.23.2304.1209@0.23.2304.1209" timestamp="1602231512569" />
-    <state width="1110" height="340" key="GridCell.Tab.0.right" timestamp="1602231512570">
-      <screen x="0" y="23" width="2304" height="1209" />
-    </state>
-    <state width="1110" height="340" key="GridCell.Tab.0.right/2304.23.1440.877/0.23.2304.1209@0.23.2304.1209" timestamp="1602231512570" />
   </component>
 </project>
