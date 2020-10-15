@@ -11,6 +11,7 @@ void dfs(int len){
             cout<<num[i]<<" ";
         }
         cout<<"\n";
+		return;
     }
 
     for(int i=1;i<=n;++i){
