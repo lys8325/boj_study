@@ -2,7 +2,7 @@
 using namespace std;
 
 int num[9];
-int visit[9];
+bool visit[9];
 int n, m;
 
 void dfs(int len){
