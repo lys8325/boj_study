@@ -20,7 +20,7 @@ int dp(int idx, int pre){
         for(i == idx){
             continue;
         }
-        if(memo[idx][i])
+        
     }
 }
 
