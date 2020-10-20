@@ -1,13 +1,13 @@
 #include <iostream>
 #include <algorithm>
 using namespace std;
-
+i
 int n;
 int rgb[1000][3];
-int memo[1000][3];
+int memo[1000][4];
 
 int dp(int idx, int pre){
-    int &ret = memo[idx][];
+    int &ret = memo[idx][3];
     if(idx == n){
         return v;
     }
