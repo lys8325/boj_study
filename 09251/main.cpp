@@ -3,17 +3,16 @@
 #include <algorithm>
 using namespace std;
 
-string a("a"), b("b"), tmp;
+string a("a"), b("b");
 int aLen, bLen;
-int mat[1001][1001];
+int mat[1000][1000];
 
 int lcs(int i, int j){
-    int &v = mat[i][j];
-    if(i == 0 || j == 0){
-        v = 0;
-        return v;
+    if(i < 0 || j < 0){
+        return 0;
     }
 
+    int &v = mat[i][j];
     if(v != -1){
         return v;
     }
@@ -28,16 +27,13 @@ int lcs(int i, int j){
 }
 
 int main() {
-    cin>>tmp;
-    a.append(tmp);
-    cin>>tmp;
-    b.append(tmp);
+    cin>>a>>b;
 
-    aLen = a.length()-1;
-    bLen = b.length()-1;
+    aLen = a.length();
+    bLen = b.length();
 
-    memset(mat,-1,1001*1001*4);
-    cout<<lcs(aLen, bLen)<<"\n";
+    memset(mat,-1,1000*1000*4);
+    cout<<lcs(aLen-1, bLen-1)<<"\n";
 
     return 0;
 }
