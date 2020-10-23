@@ -3,7 +3,7 @@
 #include <algorithm>
 using namespace std;
 
-string a("a"), b("b");
+string a, b;
 int aLen, bLen;
 int mat[1000][1000];
 
