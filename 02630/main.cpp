@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-int devide(int y, int x, int n, int paper[][129], int color){
+int divide(int y, int x, int n, int **paper, int color){
     bool isComplete = true;
     int cnt = 0;
 
@@ -24,7 +24,7 @@ int devide(int y, int x, int n, int paper[][129], int color){
 
     for(int i=0;i<2;++i){
         for(int j=0;j<2;++j){
-            cnt += devide((y+n*i/2), (x+n*j/2), n/2, paper, color);;
+            cnt += divide((y + n * i / 2), (x + n * j / 2), n / 2, paper, color);;
         }
     }
 
@@ -42,8 +42,8 @@ int main() {
         }
     }
 
-    white = devide(1,1,n,paper,0);
-    blue = devide(1,1,n,paper,1);
+    white = divide(1, 1, n, paper, 0);
+    blue = divide(1, 1, n, paper, 1);
 
     cout<<white<<"\n"<<blue;
     return 0;
