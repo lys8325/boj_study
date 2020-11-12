@@ -6,11 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/Users/leehyeoksoo/Desktop/코딩공부/boj/09935_stringBomb/main.cpp
+/Users/leehyeoksoo/Desktop/study/boj_study/09935/main.cpp
 iostream
 -
-string
--
-vector
+deque
 -
 
