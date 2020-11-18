@@ -5,11 +5,16 @@ int n;
 int outPlace[1000001];
 
 // ==============   quick sort start   ================
-int partition(int arr[], int left, int right){
+int partition(int *arr, int left, int right){
     int i = left;
     int j = right;
+    int mid = (i + j) / 2;
+
+    int tmp = arr[mid];
+    arr[mid] = arr[i];
+    arr[i] = tmp;
+
     int pivot = arr[i];
-    int tmp;
 
     while(i < j){
         while(pivot < arr[j]){
@@ -107,7 +112,7 @@ int main() {
         cin>>num[i];
     }
 
-    //quickSort(num, 1, n);
+    quickSort(num, 1, n);
     //mergeSort(num, 1, n);
 
     for(int i=1;i<=n;++i){
