@@ -98,7 +98,42 @@ void mergeSort(int arr[], int left, int right){
 // ==============   merge sort end  ================
 
 // ==============   heap sort start  ================
+void heapify(int arr[], int idx, int heapSize){
+    int nextIdx = idx*2;
+    if(nextIdx > heapSize){
+        return;
+    }
+    if(nextIdx + 1 <= heapSize){
+        if(arr[nextIdx] < arr[nextIdx+1]){
+            nextIdx += 1;
+        }
+    }
 
+    if(arr[nextIdx] > arr[idx]){
+        int tmp = arr[idx];
+        arr[idx] = arr[nextIdx];
+        arr[nextIdx] = tmp;
+
+        heapify(arr, nextIdx, heapSize);
+    }
+}
+
+void heapSort(int arr[]){
+    int heapSize = n;
+
+    for(int i=n/2;i>0;--i){
+        heapify(arr, i, n);
+    }
+
+    while(heapSize > 0){
+        int tmp = arr[1];
+        arr[1] = arr[heapSize];
+        arr[heapSize] = tmp;
+        --heapSize;
+
+        heapify(arr, 1, heapSize);
+    }
+}
 // ==============   heap sort end  ================
 
 int main() {
@@ -112,8 +147,9 @@ int main() {
         cin>>num[i];
     }
 
-    quickSort(num, 1, n);
+    //quickSort(num, 1, n);
     //mergeSort(num, 1, n);
+    heapSort(num);
 
     for(int i=1;i<=n;++i){
         cout<<num[i]<<"\n";
