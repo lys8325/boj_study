@@ -1,28 +1,11 @@
-#include <cstdio>
-#include <algorithm>
+#include <iostream>
 using namespace std;
 
-long long n, k;
-int main() {
-    scanf("%lld %lld", &n, &k);
-    long long left = 1;
-    long long right = n * n;
-    long long mid;
-    long long ans, tmp;
+int partition(int arr[], int left, int right, int k){
 
-    while(left <= right){
-        tmp = 0;
-        mid  = (left + right) / 2;
-        for(int i=1;i<=n;++i){
-            tmp += min( mid/i, n);
-        }
-        if(k <= tmp){
-            ans = mid;
-            right = mid -1;
-        }else{
-            left = mid + 1;
-        }
-    }
-    printf("%d", ans);
+}
+
+int main() {
+    
     return 0;
 }
