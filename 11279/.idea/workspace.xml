@@ -34,12 +34,12 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RunManager">
-    <configuration name="11279" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="11279" TARGET_NAME="11279" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="11279" RUN_TARGET_NAME="11279">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
+    <configuration name="11279" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="11279" TARGET_NAME="11279" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="11279" RUN_TARGET_NAME="11279">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -58,7 +58,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1607351730949</updated>
-      <workItem from="1607351732465" duration="1316000" />
+      <workItem from="1607351732465" duration="1876000" />
+      <workItem from="1607438549732" duration="725000" />
     </task>
     <servers />
   </component>
@@ -66,21 +67,25 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="678" height="209" key="GridCell.Tab.0.bottom" timestamp="1607353040298">
-      <screen x="0" y="23" width="1440" height="813" />
+    <state width="1110" height="337" key="GridCell.Tab.0.bottom" timestamp="1607439309675">
+      <screen x="0" y="23" width="2304" height="1209" />
     </state>
+    <state width="1110" height="337" key="GridCell.Tab.0.bottom/-1280.308.1280.777/0.23.2304.1209@0.23.2304.1209" timestamp="1607439309675" />
     <state width="678" height="209" key="GridCell.Tab.0.bottom/0.23.1440.813@0.23.1440.813" timestamp="1607353040298" />
-    <state width="678" height="209" key="GridCell.Tab.0.center" timestamp="1607353040297">
-      <screen x="0" y="23" width="1440" height="813" />
+    <state width="1110" height="337" key="GridCell.Tab.0.center" timestamp="1607439309674">
+      <screen x="0" y="23" width="2304" height="1209" />
     </state>
+    <state width="1110" height="337" key="GridCell.Tab.0.center/-1280.308.1280.777/0.23.2304.1209@0.23.2304.1209" timestamp="1607439309674" />
     <state width="678" height="209" key="GridCell.Tab.0.center/0.23.1440.813@0.23.1440.813" timestamp="1607353040297" />
-    <state width="678" height="209" key="GridCell.Tab.0.left" timestamp="1607353040296">
-      <screen x="0" y="23" width="1440" height="813" />
+    <state width="1110" height="337" key="GridCell.Tab.0.left" timestamp="1607439309674">
+      <screen x="0" y="23" width="2304" height="1209" />
     </state>
+    <state width="1110" height="337" key="GridCell.Tab.0.left/-1280.308.1280.777/0.23.2304.1209@0.23.2304.1209" timestamp="1607439309674" />
     <state width="678" height="209" key="GridCell.Tab.0.left/0.23.1440.813@0.23.1440.813" timestamp="1607353040296" />
-    <state width="678" height="209" key="GridCell.Tab.0.right" timestamp="1607353040297">
-      <screen x="0" y="23" width="1440" height="813" />
+    <state width="1110" height="337" key="GridCell.Tab.0.right" timestamp="1607439309675">
+      <screen x="0" y="23" width="2304" height="1209" />
     </state>
+    <state width="1110" height="337" key="GridCell.Tab.0.right/-1280.308.1280.777/0.23.2304.1209@0.23.2304.1209" timestamp="1607439309675" />
     <state width="678" height="209" key="GridCell.Tab.0.right/0.23.1440.813@0.23.1440.813" timestamp="1607353040297" />
   </component>
 </project>
