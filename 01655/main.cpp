@@ -1,8 +1,12 @@
 #include <iostream>
+#include <vector>
 #include <queue>
 using namespace std;
 
 int main() {
+    cin.tie(NULL);
+    ios::sync_with_stdio(false);
+
     priority_queue<int> maxHeap;
     priority_queue<int, vector<int>, greater<int>> minHeap;
 
@@ -21,7 +25,7 @@ int main() {
             minHeap.push(mid);
             mid = maxHeap.top();
             maxHeap.pop();
-        }else if(maxHeap.size() > minHeap.size()){
+        }else if(maxHeap.size()+1 < minHeap.size()){
             maxHeap.push(mid);
             mid = minHeap.top();
             minHeap.pop();
