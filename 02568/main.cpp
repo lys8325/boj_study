@@ -17,7 +17,7 @@ int main() {
 
     for(int i=0;i<n;++i){
         cin>>from>>to;
-        num.push_back({from, to});
+        num[i] = {from, to};
     }
     sort(num.begin(), num.end());
 
@@ -26,7 +26,8 @@ int main() {
         for(int j=0;j<i;++j){
             if(num[i].second > num[j].second){
                 if(v[i].first < v[j].first + 1){
-                    v[i] = {v[j].first + 1, j};
+                    v[i].first = v[j].first + 1;
+                    v[i].second = j;
                 }
             }
         }
@@ -36,11 +37,18 @@ int main() {
         }
     }
 
-    for(auto a : v){
-        cout<<a.first<<" ";
-        cout<<a.second<<"\n";
+    int tmpIdx = ansIdx;
+    while(tmpIdx != v[tmpIdx].second){
+        isMember[tmpIdx] = true;
+        tmpIdx = v[tmpIdx].second;
     }
-    cout<<ansVal<<"\n"<<ansIdx;
+    isMember[tmpIdx] = true;
+
+    cout<<n - ansVal<<"\n";
+    for(int i=0;i<ansIdx;++i){
+        if(!isMember[i]){
+            cout<<num[i].first<<"\n";
+        }
+    }
     return 0;
 }
-
