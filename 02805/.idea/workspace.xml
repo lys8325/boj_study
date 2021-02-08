@@ -34,12 +34,12 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RunManager">
-    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
+    <configuration name="02805" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="02805" TARGET_NAME="02805" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="02805" RUN_TARGET_NAME="02805">
       <method v="2">
-        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="02805" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="02805" TARGET_NAME="02805" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="02805" RUN_TARGET_NAME="02805">
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -59,6 +59,8 @@
       <option name="presentableId" value="Default" />
       <updated>1612277280816</updated>
       <workItem from="1612277282435" duration="106000" />
+      <workItem from="1612362846801" duration="780000" />
+      <workItem from="1612794870653" duration="1270000" />
     </task>
     <servers />
   </component>
@@ -66,21 +68,21 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1110" height="336" key="GridCell.Tab.0.bottom" timestamp="1612350020897">
+    <state width="1110" height="336" key="GridCell.Tab.0.bottom" timestamp="1612450544498">
       <screen x="0" y="25" width="2304" height="1202" />
     </state>
-    <state width="1110" height="336" key="GridCell.Tab.0.bottom/-1280.25.1280.775/0.25.2304.1202@0.25.2304.1202" timestamp="1612350020897" />
-    <state width="1110" height="336" key="GridCell.Tab.0.center" timestamp="1612350020892">
+    <state width="1110" height="336" key="GridCell.Tab.0.bottom/-1280.25.1280.775/0.25.2304.1202@0.25.2304.1202" timestamp="1612450544498" />
+    <state width="1110" height="336" key="GridCell.Tab.0.center" timestamp="1612450544497">
       <screen x="0" y="25" width="2304" height="1202" />
     </state>
-    <state width="1110" height="336" key="GridCell.Tab.0.center/-1280.25.1280.775/0.25.2304.1202@0.25.2304.1202" timestamp="1612350020892" />
-    <state width="1110" height="336" key="GridCell.Tab.0.left" timestamp="1612350020891">
+    <state width="1110" height="336" key="GridCell.Tab.0.center/-1280.25.1280.775/0.25.2304.1202@0.25.2304.1202" timestamp="1612450544497" />
+    <state width="1110" height="336" key="GridCell.Tab.0.left" timestamp="1612450544497">
       <screen x="0" y="25" width="2304" height="1202" />
     </state>
-    <state width="1110" height="336" key="GridCell.Tab.0.left/-1280.25.1280.775/0.25.2304.1202@0.25.2304.1202" timestamp="1612350020891" />
-    <state width="1110" height="336" key="GridCell.Tab.0.right" timestamp="1612350020897">
+    <state width="1110" height="336" key="GridCell.Tab.0.left/-1280.25.1280.775/0.25.2304.1202@0.25.2304.1202" timestamp="1612450544497" />
+    <state width="1110" height="336" key="GridCell.Tab.0.right" timestamp="1612450544498">
       <screen x="0" y="25" width="2304" height="1202" />
     </state>
-    <state width="1110" height="336" key="GridCell.Tab.0.right/-1280.25.1280.775/0.25.2304.1202@0.25.2304.1202" timestamp="1612350020897" />
+    <state width="1110" height="336" key="GridCell.Tab.0.right/-1280.25.1280.775/0.25.2304.1202@0.25.2304.1202" timestamp="1612450544498" />
   </component>
 </project>
