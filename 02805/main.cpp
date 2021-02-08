@@ -7,8 +7,9 @@ int main(){
     cin.tie(NULL);
     ios::sync_with_stdio(false);
 
-    int n, m, tmp, h, d, sum, ans = -1;
-    vector<int> v;
+    long long n, m, tmp, h, d, sum;
+    pair<long, long> ans = {9223372036854775807LL, 0};
+    vector<long> v;
 
     cin>>n>>m;
     for(int i=0;i<n;++i){
@@ -19,28 +20,28 @@ int main(){
 
     int l = 0, r = v[n-1], mid;
 
-    while(l < r){
+    while(l <= r){
         sum = 0;
-        mid = (l + r) / 2;
-        h = v[mid];
+        h = (l + r) / 2;
 
-        for(int i=mid;i<n;++i){
-            d = v[i] - h;
+        for(auto iter = lower_bound(v.begin(), v.begin(), mid);iter<v.end();++iter){
+            d = *iter - h;
+
             if(d > 0){
                 sum += d;
             }
         }
 
         if(sum < m){
-            r = mid - 1;
+            r = h - 1;
         }else{
-            l = mid + 1;
-            if(sum == m){
-                ans = max(ans, h);
+            l = h + 1;
+            if(ans.first > sum - m){
+                ans = {sum-m, h};
             }
         }
     }
 
-    cout<<ans;
+    cout<<ans.second;
     return 0;
 }
