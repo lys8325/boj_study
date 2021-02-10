@@ -18,6 +18,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ClangdSettings">
+    <option name="clangTidyViaClangd" value="false" />
     <option name="formatViaClangd" value="false" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
@@ -34,12 +35,12 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RunManager">
-    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
+    <configuration name="09466" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="09466" TARGET_NAME="09466" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="09466" RUN_TARGET_NAME="09466">
       <method v="2">
-        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="09466" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="09466" TARGET_NAME="09466" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="09466" RUN_TARGET_NAME="09466">
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -59,6 +60,9 @@
       <option name="presentableId" value="Default" />
       <updated>1611240536546</updated>
       <workItem from="1611240538195" duration="18000" />
+      <workItem from="1611316014306" duration="626000" />
+      <workItem from="1611404966583" duration="75000" />
+      <workItem from="1612880927099" duration="2983000" />
     </task>
     <servers />
   </component>
@@ -66,21 +70,21 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1110" height="336" key="GridCell.Tab.0.bottom" timestamp="1611240555612">
+    <state width="1110" height="336" key="GridCell.Tab.0.bottom" timestamp="1611320977678">
       <screen x="0" y="25" width="2304" height="1202" />
     </state>
-    <state width="1110" height="336" key="GridCell.Tab.0.bottom/-1280.25.1280.775/0.25.2304.1202@0.25.2304.1202" timestamp="1611240555612" />
-    <state width="1110" height="336" key="GridCell.Tab.0.center" timestamp="1611240555611">
+    <state width="1110" height="336" key="GridCell.Tab.0.bottom/-1280.25.1280.775/0.25.2304.1202@0.25.2304.1202" timestamp="1611320977678" />
+    <state width="1110" height="336" key="GridCell.Tab.0.center" timestamp="1611320977677">
       <screen x="0" y="25" width="2304" height="1202" />
     </state>
-    <state width="1110" height="336" key="GridCell.Tab.0.center/-1280.25.1280.775/0.25.2304.1202@0.25.2304.1202" timestamp="1611240555611" />
-    <state width="1110" height="336" key="GridCell.Tab.0.left" timestamp="1611240555611">
+    <state width="1110" height="336" key="GridCell.Tab.0.center/-1280.25.1280.775/0.25.2304.1202@0.25.2304.1202" timestamp="1611320977677" />
+    <state width="1110" height="336" key="GridCell.Tab.0.left" timestamp="1611320977677">
       <screen x="0" y="25" width="2304" height="1202" />
     </state>
-    <state width="1110" height="336" key="GridCell.Tab.0.left/-1280.25.1280.775/0.25.2304.1202@0.25.2304.1202" timestamp="1611240555611" />
-    <state width="1110" height="336" key="GridCell.Tab.0.right" timestamp="1611240555612">
+    <state width="1110" height="336" key="GridCell.Tab.0.left/-1280.25.1280.775/0.25.2304.1202@0.25.2304.1202" timestamp="1611320977677" />
+    <state width="1110" height="336" key="GridCell.Tab.0.right" timestamp="1611320977678">
       <screen x="0" y="25" width="2304" height="1202" />
     </state>
-    <state width="1110" height="336" key="GridCell.Tab.0.right/-1280.25.1280.775/0.25.2304.1202@0.25.2304.1202" timestamp="1611240555612" />
+    <state width="1110" height="336" key="GridCell.Tab.0.right/-1280.25.1280.775/0.25.2304.1202@0.25.2304.1202" timestamp="1611320977678" />
   </component>
 </project>
