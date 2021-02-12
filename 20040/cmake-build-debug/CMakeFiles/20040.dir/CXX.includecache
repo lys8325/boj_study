@@ -7,6 +7,6 @@
 #IncludeRegexTransform: 
 
 /Users/leehyeoksoo/Desktop/study/boj_study/20040/main.cpp
-iostream
+cstdio
 -
 
