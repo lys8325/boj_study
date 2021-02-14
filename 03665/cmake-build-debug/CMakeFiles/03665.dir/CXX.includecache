@@ -7,6 +7,14 @@
 #IncludeRegexTransform: 
 
 /Users/leehyeoksoo/Desktop/study/boj_study/03665/main.cpp
-iostream
+cstdio
+-
+vector
+-
+queue
+-
+cstring
+-
+algorithm
 -
 
