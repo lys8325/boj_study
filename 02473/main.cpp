@@ -1,37 +1,37 @@
-#include <iostream>
-#include <algorithm>
-#define endl '\n'
+#include<cstdio>
+#include<algorithm>
 using namespace std;
-typedef long long ll;
-const int sz=5e3;
-int n,arr[sz],idx,ans1,ans2,ans3;
-ll temp,mn=3e9+1;
-bool flag;
-
-int main()
-{
-    ios::sync_with_stdio(false);cin.tie(NULL);cout.tie(NULL);
-
-    cin>>n;
-    for(int i=0;i<n;++i)cin>>arr[i];
-    sort(arr,arr+n);
-    for(int i=0;i<n-2;++i){
-        for(int j=i+2;j<n;++j){
-            temp=0-(arr[i]+arr[j]);
-            idx=lower_bound(arr+i+1,arr+j-1,temp)-arr;
-            if(idx>i+1 && abs(arr[idx-1]-temp)<abs(arr[idx]-temp))idx--;
-            temp=arr[idx]-temp;
-            if(abs(temp)<mn){
-                mn=abs(temp);
-                ans1=arr[i],ans2=arr[idx],ans3=arr[j];
+long long arr[5050], ans[3];
+int main(){
+    int n;
+    scanf("%d", &n);
+    for(int i=0; i<n; i++){
+        scanf("%lld", arr+i);
+    }
+    sort(arr, arr+n);
+    long long mini = 3*10e9+10;
+    for(int i=0; i<n-2; i++){
+        int j, k;
+        j = i+1; k = n-1;
+        while(1){
+            if(j>=k) break;
+            long long x = arr[i]+arr[j]+arr[k];
+            long long nx = x<0?-x:x;
+            if(mini > nx){
+                mini = nx;
+                ans[0]=arr[i];
+                ans[1]=arr[j];
+                ans[2]=arr[k];
             }
-            if(!abs(temp)){
-                flag=1;
-                break;
+            if(x>0){
+                k--;
+            }else{
+                j++;
             }
         }
-        if(flag)break;
     }
-    cout<<ans1<<' '<<ans2<<' '<<ans3<<endl;
+    for(int i=0; i<3; i++){
+        printf("%lld ", ans[i]);
+    }
     return 0;
 }

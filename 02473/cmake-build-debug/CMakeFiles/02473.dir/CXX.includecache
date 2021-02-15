@@ -7,7 +7,7 @@
 #IncludeRegexTransform: 
 
 /Users/leehyeoksoo/Desktop/study/boj_study/02473/main.cpp
-iostream
+cstdio
 -
 algorithm
 -
