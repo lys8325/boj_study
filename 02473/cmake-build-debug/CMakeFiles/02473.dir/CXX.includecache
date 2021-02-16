@@ -7,8 +7,10 @@
 #IncludeRegexTransform: 
 
 /Users/leehyeoksoo/Desktop/study/boj_study/02473/main.cpp
-cstdio
+iostream
 -
 algorithm
+-
+vector
 -
 

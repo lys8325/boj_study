@@ -1,37 +1,45 @@
-#include<cstdio>
-#include<algorithm>
+#include<iostream>
+#include <algorithm>
+#include <vector>
 using namespace std;
-long long arr[5050], ans[3];
+
 int main(){
-    int n;
-    scanf("%d", &n);
-    for(int i=0; i<n; i++){
-        scanf("%lld", arr+i);
+    cin.tie(NULL);
+    ios::sync_with_stdio(false);
+
+    int n, num1, num2, num3, l, r, idx;
+    vector<int> v;
+    long long sum = 3000000000, tmpSum;
+
+    cin>>n;
+    for(int i=0;i<n;++i){
+        cin>>num1;
+        v.push_back(num1);
     }
-    sort(arr, arr+n);
-    long long mini = 3*10e9+10;
-    for(int i=0; i<n-2; i++){
-        int j, k;
-        j = i+1; k = n-1;
-        while(1){
-            if(j>=k) break;
-            long long x = arr[i]+arr[j]+arr[k];
-            long long nx = x<0?-x:x;
-            if(mini > nx){
-                mini = nx;
-                ans[0]=arr[i];
-                ans[1]=arr[j];
-                ans[2]=arr[k];
-            }
-            if(x>0){
-                k--;
-            }else{
-                j++;
-            }
+    sort(v.begin(), v.end());
+
+    l = 0; r = n-1;
+    while(l < r-1){
+        tmpSum = v[l] + v[r];
+        idx = lower_bound(v.begin(), v.end(), -tmpSum) - v.begin();
+        tmpSum += v[idx];
+
+        if(sum > abs(tmpSum)){
+            sum = abs(tmpSum);
+
+            num1 = v[l];
+            num2 = v[idx];
+            num3 = v[r];
+        }
+
+        if(tmpSum > 0){
+            --r;
+        }else if(tmpSum < 0){
+            ++l;
+        }else{
+            break;
         }
     }
-    for(int i=0; i<3; i++){
-        printf("%lld ", ans[i]);
-    }
-    return 0;
+
+    cout<<num1<<" "<<num2<<" "<<num3;
 }
