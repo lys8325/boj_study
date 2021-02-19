@@ -7,6 +7,8 @@
 #IncludeRegexTransform: 
 
 /Users/leehyeoksoo/Desktop/study/boj_study/09184/main.cpp
-iostream
+cstdio
+-
+memory.h
 -
 
