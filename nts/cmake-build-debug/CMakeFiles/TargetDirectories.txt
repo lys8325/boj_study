@@ -1,3 +1,0 @@
-/Users/leehyeoksoo/Desktop/study/boj_study/nts/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/Users/leehyeoksoo/Desktop/study/boj_study/nts/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/leehyeoksoo/Desktop/study/boj_study/nts/cmake-build-debug/CMakeFiles/nts.dir
