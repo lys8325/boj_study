@@ -7,12 +7,12 @@
 #IncludeRegexTransform: 
 
 /Users/leehyeoksoo/Desktop/study/boj_study/01647/main.cpp
-cstdio
+iostream
 -
 vector
 -
-algorithm
--
 queue
+-
+algorithm
 -
 

@@ -1,66 +1,54 @@
-#include <cstdio>
+#include <iostream>
 #include <vector>
-#include <algorithm>
 #include <queue>
+#include <algorithm>
 using namespace std;
 
-struct Edge {
-    int start, end, cost;
-    bool operator < (const Edge &other) const {
-        return cost < other.cost;
-    }
-};
-
-int Parent[100001];
-
-int Find(int x){
-    if (x == Parent[x]){
-        return x;
-    }
-    return Parent[x] = Find(Parent[x]);
+bool cmp(pair<int, int> a, pair<int, int> b){
+    return a.first < b.first;
 }
 
-bool Merge(int x, int y){
-    x = Find(x);
-    y = Find(y);
-
-    if (x == y) return false;
-    Parent[x] = y;
-    return true;
-}
+int n, m, maxW = -1;
+vector<pair<int, int>> v[100001];
+bool visit[100001];
+priority_queue<pair<int, int>, vector<pair<int, int>>, greater<pair<int, int>>> pq;
 
 int main(){
-    int N, M;
-    scanf("%d %d", &N, &M);
+    cin>>n>>m;
+    int a, b, c;
 
-    for (int i = 1; i <= N; i++){
-        Parent[i] = i;
+    for(int i=0;i<m;++i){
+        cin>>a>>b>>c;
+        v[a].push_back({c, b});
+        v[b].push_back({c, a});
     }
 
-    vector<Edge> E;
-    for (int i = 0; i < M; i++){
-        int from, to, cost;
-        scanf("%d %d %d", &from, &to, &cost);
-        E.push_back({from, to, cost});
+    visit[1] = true;
+    for(pair<int, int> e : v[1]){
+        pq.push(e);
     }
 
-    sort(E.begin(), E.end());
-    int ans = 0;
-    int cnt = 0;
+    int next, w, sum = 0;
+    while(!pq.empty()){
+        w = pq.top().first;
+        next = pq.top().second;
+        pq.pop();
 
-    for (int i = 0; i < M; i++){
-        Edge cur = E[i];
-
-        if (Merge(cur.start, cur.end)){
-            ans += cur.cost;
-            cnt++;
+        if(visit[next]){
+            continue;
         }
 
-        if (cnt == N - 2){
-            break;
+        sum += w;
+        maxW = max(w, maxW);
+        visit[next] = true;
+
+        for(pair<int, int> p : v[next]){
+            if(!visit[p.second]){
+                pq.push(p);
+            }
         }
     }
 
-    printf("%d\n", ans);
+    cout<<sum - maxW;
     return 0;
 }
