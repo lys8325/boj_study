@@ -18,26 +18,26 @@ int main(){
     }
     sort(v.begin(), v.end());
 
-    l = 0; r = n-1;
-    while(l < r-1){
-        tmpSum = v[l] + v[r];
-        idx = lower_bound(v.begin(), v.end(), -tmpSum) - v.begin();
-        tmpSum += v[idx];
+    for(int i=0;i<n-2;++i){
+        l = i+1;
+        r = n-1;
+        while(l < r){
+            tmpSum = v[i] + v[l] + v[r];
 
-        if(sum > abs(tmpSum)){
-            sum = abs(tmpSum);
+            if(abs(sum) > abs(tmpSum)){
+                sum = tmpSum;
+                num1 = v[i];
+                num2 = v[l];
+                num3 = v[r];
+            }
 
-            num1 = v[l];
-            num2 = v[idx];
-            num3 = v[r];
-        }
-
-        if(tmpSum > 0){
-            --r;
-        }else if(tmpSum < 0){
-            ++l;
-        }else{
-            break;
+            if(tmpSum == 0){
+                break;
+            }else if(tmpSum > 0){
+                --r;
+            }else{
+                ++l;
+            }
         }
     }
 
